@@ -61,3 +61,4 @@ while True:
             product_manager.buy_product(id, amount)
         elif choise == "6":
             break
+        

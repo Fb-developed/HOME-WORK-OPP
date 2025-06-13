@@ -1,17 +1,17 @@
-# class Circle:
-#     def __init__(self,radius):
-#         self.radius = radius
-#         self.pi = 3.14159
+class Circle:
+    def __init__(self,radius):
+        self.radius = radius
+        self.pi = 3.14159
 
-#     def getarea(self):
-#         return self.pi * (self.radius ** 2)
+    def getarea(self):
+        return self.pi * (self.radius ** 2)
     
-#     def getperimetr(self):
-#         return 2 * self.pi * self.radius
+    def getperimetr(self):
+        return 2 * self.pi * self.radius
 
-# circy = Circle(11)
-# print(circy.getarea())
-# print(circy.getperimetr())
+circy = Circle(11)
+print(circy.getarea())
+print(circy.getperimetr())
 
 
 
