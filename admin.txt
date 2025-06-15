@@ -1,0 +1,14 @@
+def __validate_password(self, password):
+    digit = False
+    upper = False
+    symbol = False
+
+    for c in password:
+        if c.isdigit():
+            digit = True
+        elif c.isupper():
+            upper = True
+        elif c in string.punctuation:
+            symbol = True
+
+    return len(password) > 7 and digit and upper and symbol
